@@ -1,0 +1,21 @@
+name: Build Docker Image and push to DockerHub
+on:
+  workflow_dispatch:
+jobs:
+    build:
+      name: Push the Docker Image to DockerHub
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - name: Login to DockerHub
+          env:
+            username: ${{secrets.DOCKERHUB_USERNAME}}
+            password: ${{secrets.DOCKERHUB_PASSWORD}}
+          run: |
+            docker login -u $username -p $password 
+        - name: Build the Docker Image
+          run: |
+            ls -la 
+            docker build . -f Dockerfile --tag ${{secrets.DOCKERHUB_USERNAME}}/demo-image-test:latest
+        - name: Push the Docker Image
+          run: docker push ${{secrets.DOCKERHUB_USERNAME}}/demo-image-test:latest
