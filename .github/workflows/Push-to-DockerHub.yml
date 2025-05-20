@@ -16,6 +16,6 @@ jobs:
         - name: Build the Docker Image
           run: |
             ls -la 
-            docker build . -f Dockerfile --tag ${{secrets.DOCKERHUB_USERNAME}}/tasky:test
+            docker build . -f Dockerfile --tag ${{secrets.DOCKERHUB_USERNAME}}/tasky:latest
         - name: Push the Docker Image
-          run: docker push ${{secrets.DOCKERHUB_USERNAME}}/tasky:test
+          run: docker push ${{secrets.DOCKERHUB_USERNAME}}/tasky:latest
