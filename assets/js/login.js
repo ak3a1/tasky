@@ -14,7 +14,7 @@ login.addEventListener("click", () => {
         })
     })
     .then(async response => {
-        if(response.status == 200) {
+        if(response.status === 200) {
             window.location.href = "/todo";
         } else {
             let body = await response.json();
@@ -45,13 +45,21 @@ signup.addEventListener("click", () => {
             'password' : document.getElementById("signuppass").value
         })
     })
-    .then(response => {
-        if(response.status == 200) {
+    .then(async response => {
+        if(response.status === 200) {
             window.location.href = "/todo";
         } else {
-            var str = JSON.stringify(response.json());
-            document.write(str)
+            let body = await response.json();
+            if(body.error) {
+                console.error(body.error);
+                document.getElementById('error_signup').innerHTML=body.error;
+            }
+            // var str = JSON.stringify(response.json());
+            // document.write(str)
         }
         
+    })
+    .catch(error => {
+        console.error(error);
     })
 });

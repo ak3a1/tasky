@@ -46,6 +46,15 @@ label{
 	cursor: pointer;
 	transition: .5s ease-in-out;
 }
+.error_signup {
+	color: #fd7070;;
+	font-size: 1em;
+	justify-content: center;
+	display: flex;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
 /*email password*/
 input{
 	width: 60%;

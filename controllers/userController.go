@@ -34,8 +34,8 @@ func SignUp(c *gin.Context) {
 	defer cancel()
 
 	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "error occurred while checking for the email"})
 		log.Panic(err)
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "error occured while checking for the email"})
 	}
 
 	password := HashPassword(*user.Password)
@@ -58,7 +58,7 @@ func SignUp(c *gin.Context) {
 
 	token, err, expirationTime := auth.GenerateJWT(userId)
 	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "error occured while generating token"})
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "error occurred while generating token"})
 		return
 	}
 
@@ -124,7 +124,7 @@ func Login(c *gin.Context) {
 	if shouldRefresh {
 		token, err, expirationTime := auth.GenerateJWT(userId)
 		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{"error": "error occured while generating token"})
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "error occurred while generating token"})
 			return
 		}
 

@@ -12,18 +12,13 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-var Client *mongo.Client = CreateMongoClient()
+var Client = CreateMongoClient()
 
 func CreateMongoClient() *mongo.Client {
-	godotenv.Overload()
+	err := godotenv.Overload()
 	MongoDbURI := os.Getenv("MONGODB_URI")
-	client, err := mongo.NewClient(options.Client().ApplyURI(MongoDbURI))
-	if err != nil {
-		log.Fatal(err)
-	}
-
 	var ctx, cancel = context.WithTimeout(context.Background(), 10*time.Second)
-	err = client.Connect(ctx)
+	client, err := mongo.Connect(ctx, options.Client().ApplyURI(MongoDbURI))
 	if err != nil {
 		log.Fatal(err)
 	}
