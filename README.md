@@ -1,3 +1,15 @@
+# Updates
+
+## golang version and alpine version updated to remove some CVE's
+
+[Link to Grype scan results when using the previous image](https://github.com/ak3a1/tasky/blob/main/grype_scans/5_21_2025/previous_image_golang_1.19_alpine_3.17.0.txt)
+
+[Link to Grype scan results when using the new updated image](https://github.com/ak3a1/tasky/blob/main/grype_scans/5_21_2025/new_image_golang_1.24_alpine_3.21.3.txt)
+
+## fix for the signup form to show errors on the form itself
+
+[Link to the commit](https://github.com/ak3a1/tasky/commit/17c7ec24c460390ee267bdb1c557ce747c4da4d9)
+
 # Docker
 A Dockerfile has been provided to run this application.  The default port exposed is 8080.
 
