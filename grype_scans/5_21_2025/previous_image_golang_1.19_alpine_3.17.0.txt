@@ -1,0 +1,130 @@
+NAME                         INSTALLED                           FIXED-IN                           TYPE       VULNERABILITY        SEVERITY  EPSS%   RISK         
+stdlib                       go1.19.13                           *1.20.10, 1.21.3                   go-module  CVE-2023-44487       High      100.00   78.8  (kev)  
+libcrypto3                   3.0.7-r0                            3.0.8-r0                           apk        CVE-2023-0286        High      99.61    67.8  
+libssl3                      3.0.7-r0                            3.0.8-r0                           apk        CVE-2023-0286        High      99.61    67.8  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.17.0                             go-module  GHSA-qppj-fm5r-hxr3  Medium    100.00   54.1  (kev)  
+libcrypto3                   3.0.7-r0                            3.0.9-r0                           apk        CVE-2023-2650        Medium    99.67    52.9  
+libssl3                      3.0.7-r0                            3.0.9-r0                           apk        CVE-2023-2650        Medium    99.67    52.9  
+stdlib                       go1.19.13                           *1.21.9, 1.22.2                    go-module  CVE-2023-45288       High      98.08    44.4  
+golang.org/x/crypto          v0.0.0-20210711020723-a769d52b0f97  0.17.0                             go-module  GHSA-45x7-px36-x8w8  Medium    98.86    41.7  
+golang.org/x/crypto          v0.0.0-20210711020723-a769d52b0f97  0.31.0                             go-module  GHSA-v778-237x-gjrc  Critical  96.82    31.8  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.23.0                             go-module  GHSA-4v7x-pqxf-cx7m  Medium    98.08    30.5  
+libcrypto3                   3.0.7-r0                            3.0.14-r0                          apk        CVE-2024-5535        Critical  89.33     4.7  
+libssl3                      3.0.7-r0                            3.0.14-r0                          apk        CVE-2024-5535        Critical  89.33     4.7  
+libcrypto3                   3.0.7-r0                            3.0.12-r0                          apk        CVE-2023-5363        High      82.72     1.5  
+libssl3                      3.0.7-r0                            3.0.12-r0                          apk        CVE-2023-5363        High      82.72     1.5  
+libcrypto3                   3.0.7-r0                            3.0.12-r2                          apk        CVE-2023-6129        Medium    82.12     1.1  
+libssl3                      3.0.7-r0                            3.0.12-r2                          apk        CVE-2023-6129        Medium    82.12     1.1  
+stdlib                       go1.19.13                           *1.21.8, 1.22.1                    go-module  CVE-2024-24784       High      77.00     0.8  
+libcrypto3                   3.0.7-r0                            3.0.8-r0                           apk        CVE-2023-0401        High      75.13     0.7  
+libssl3                      3.0.7-r0                            3.0.8-r0                           apk        CVE-2023-0401        High      75.13     0.7  
+libcrypto3                   3.0.7-r0                            3.0.15-r0                          apk        CVE-2024-6119        High      74.47     0.7  
+libssl3                      3.0.7-r0                            3.0.15-r0                          apk        CVE-2024-6119        High      74.47     0.7  
+libcrypto3                   3.0.7-r0                            3.0.8-r1                           apk        CVE-2023-0464        High      74.47     0.7  
+libssl3                      3.0.7-r0                            3.0.8-r1                           apk        CVE-2023-0464        High      74.47     0.7  
+libcrypto3                   3.0.7-r0                            3.0.12-r5                          apk        CVE-2024-2511        Medium    77.44     0.6  
+libssl3                      3.0.7-r0                            3.0.12-r5                          apk        CVE-2024-2511        Medium    77.44     0.6  
+stdlib                       go1.19.13                           1.21.0-0                           go-module  CVE-2023-24531       Critical  69.84     0.6  
+libcrypto3                   3.0.7-r0                            3.0.8-r0                           apk        CVE-2023-0216        High      72.47     0.6  
+libssl3                      3.0.7-r0                            3.0.8-r0                           apk        CVE-2023-0216        High      72.47     0.6  
+busybox                      1.35.0-r29                                                             apk        CVE-2022-48174       Critical  62.58     0.4  
+busybox-binsh                1.35.0-r29                                                             apk        CVE-2022-48174       Critical  62.58     0.4  
+ssl_client                   1.35.0-r29                                                             apk        CVE-2022-48174       Critical  62.58     0.4  
+stdlib                       go1.19.13                           *1.21.10, 1.22.3                   go-module  CVE-2024-24787       Medium    71.18     0.4  
+libcrypto3                   3.0.7-r0                            3.0.9-r3                           apk        CVE-2023-3446        Medium    72.60     0.4  
+libssl3                      3.0.7-r0                            3.0.9-r3                           apk        CVE-2023-3446        Medium    72.60     0.4  
+libcrypto3                   3.0.7-r0                            3.0.8-r3                           apk        CVE-2023-0466        Medium    70.11     0.3  
+libssl3                      3.0.7-r0                            3.0.8-r3                           apk        CVE-2023-0466        Medium    70.11     0.3  
+libcrypto3                   3.0.7-r0                            3.0.8-r0                           apk        CVE-2023-0217        High      62.52     0.3  
+libssl3                      3.0.7-r0                            3.0.8-r0                           apk        CVE-2023-0217        High      62.52     0.3  
+libcrypto3                   3.0.7-r0                            3.0.8-r0                           apk        CVE-2023-0215        High      61.97     0.3  
+libssl3                      3.0.7-r0                            3.0.8-r0                           apk        CVE-2023-0215        High      61.97     0.3  
+libcrypto3                   3.0.7-r0                            3.0.13-r0                          apk        CVE-2024-4603        Medium    67.39     0.3  
+libssl3                      3.0.7-r0                            3.0.13-r0                          apk        CVE-2024-4603        Medium    67.39     0.3  
+libcrypto3                   3.0.7-r0                            3.0.12-r3                          apk        CVE-2023-6237        Medium    65.83     0.3  
+libssl3                      3.0.7-r0                            3.0.12-r3                          apk        CVE-2023-6237        Medium    65.83     0.3  
+libcrypto3                   3.0.7-r0                            3.0.8-r2                           apk        CVE-2023-0465        Medium    60.99     0.2  
+libssl3                      3.0.7-r0                            3.0.8-r2                           apk        CVE-2023-0465        Medium    60.99     0.2  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.4.0                              go-module  GHSA-xrjj-mj9h-534m  Medium    60.57     0.2  
+libcrypto3                   3.0.7-r0                            3.0.8-r0                           apk        CVE-2022-4203        Medium    60.01     0.2  
+libssl3                      3.0.7-r0                            3.0.8-r0                           apk        CVE-2022-4203        Medium    60.01     0.2  
+stdlib                       go1.19.13                           *1.21.8, 1.22.1                    go-module  CVE-2024-24783       Medium    56.03     0.2  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.7.0                              go-module  GHSA-vvpx-j8f3-3w6h  High      45.86     0.2  
+stdlib                       go1.19.13                           *1.21.8, 1.22.1                    go-module  CVE-2023-45289       Medium    56.56     0.2  
+stdlib                       go1.19.13                           *1.21.11, 1.22.4                   go-module  CVE-2024-24790       Critical  39.34     0.2  
+stdlib                       go1.19.13                           *1.21.8, 1.22.1                    go-module  CVE-2023-45290       Medium    50.87     0.2  
+github.com/gin-gonic/gin     v1.8.1                              1.9.1                              go-module  GHSA-2c4m-59x9-fr2g  Medium    55.45     0.2  
+stdlib                       go1.19.13                           *1.21.12, 1.22.5                   go-module  CVE-2024-24791       High      42.67     0.1  
+google.golang.org/protobuf   v1.28.0                             1.33.0                             go-module  GHSA-8r3f-844c-mc37  Medium    47.00     0.1  
+libcrypto3                   3.0.7-r0                            3.0.15-r1                          apk        CVE-2024-9143        Medium    53.10     0.1  
+libssl3                      3.0.7-r0                            3.0.15-r1                          apk        CVE-2024-9143        Medium    53.10     0.1  
+libcrypto3                   3.0.7-r0                            3.0.10-r0                          apk        CVE-2023-3817        Medium    50.40     0.1  
+libssl3                      3.0.7-r0                            3.0.10-r0                          apk        CVE-2023-3817        Medium    50.40     0.1  
+stdlib                       go1.19.13                           1.20.0                             go-module  CVE-2023-45287       High      40.97     0.1  
+libcrypto3                   3.0.7-r0                            3.0.7-r2                           apk        CVE-2022-3996        High      40.95     0.1  
+libssl3                      3.0.7-r0                            3.0.7-r2                           apk        CVE-2022-3996        High      40.95     0.1  
+libcrypto3                   3.0.7-r0                            3.0.8-r0                           apk        CVE-2022-4304        Medium    47.65     0.1  
+libssl3                      3.0.7-r0                            3.0.8-r0                           apk        CVE-2022-4304        Medium    47.65     0.1  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.17.0                             go-module  GHSA-4374-p667-p6c8  High      38.33     0.1  
+libcrypto3                   3.0.7-r0                            3.0.14-r0                          apk        CVE-2024-4741        High      33.85   < 0.1  
+libssl3                      3.0.7-r0                            3.0.14-r0                          apk        CVE-2024-4741        High      33.85   < 0.1  
+libcrypto3                   3.0.7-r0                            3.0.8-r0                           apk        CVE-2022-4450        High      33.74   < 0.1  
+libssl3                      3.0.7-r0                            3.0.8-r0                           apk        CVE-2022-4450        High      33.74   < 0.1  
+libcrypto3                   3.0.7-r0                            3.0.12-r4                          apk        CVE-2024-0727        Medium    37.98   < 0.1  
+libssl3                      3.0.7-r0                            3.0.12-r4                          apk        CVE-2024-0727        Medium    37.98   < 0.1  
+stdlib                       go1.19.13                           *1.22.7, 1.23.1                    go-module  CVE-2024-34156       High      30.31   < 0.1  
+stdlib                       go1.19.13                           *1.21.8, 1.22.1                    go-module  CVE-2024-24785       Medium    37.25   < 0.1  
+golang.org/x/sys             v0.0.0-20210806184541-e5e7981a1069  0.0.0-20220412211240-33da011f77ad  go-module  GHSA-p782-xgp4-8hr8  Medium    37.15   < 0.1  
+libcrypto3                   3.0.7-r0                            3.0.9-r2                           apk        CVE-2023-2975        Medium    34.85   < 0.1  
+libssl3                      3.0.7-r0                            3.0.9-r2                           apk        CVE-2023-2975        Medium    34.85   < 0.1  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.0.0-20220906165146-f3363e06e74c  go-module  GHSA-69cg-p879-7622  High      27.68   < 0.1  
+libcrypto3                   3.0.7-r0                            3.0.12-r1                          apk        CVE-2023-5678        Medium    32.71   < 0.1  
+libssl3                      3.0.7-r0                            3.0.12-r1                          apk        CVE-2023-5678        Medium    32.71   < 0.1  
+stdlib                       go1.19.13                           *1.20.9, 1.21.2                    go-module  CVE-2023-39323       High      23.68   < 0.1  
+golang.org/x/crypto          v0.0.0-20210711020723-a769d52b0f97  0.0.0-20220314234659-1baeb1ce4c0b  go-module  GHSA-8c26-wmh5-6g9v  High      23.42   < 0.1  
+github.com/gin-gonic/gin     v1.8.1                              1.9.0                              go-module  GHSA-3vp4-m3rf-835h  Medium    27.50   < 0.1  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.13.0                             go-module  GHSA-2wrh-6pvc-2jm9  Medium    24.38   < 0.1  
+stdlib                       go1.19.13                           *1.20.12, 1.21.5                   go-module  CVE-2023-45285       High      17.24   < 0.1  
+stdlib                       go1.19.13                           *1.22.7, 1.23.1                    go-module  CVE-2024-34158       High      16.91   < 0.1  
+golang.org/x/crypto          v0.0.0-20210711020723-a769d52b0f97  0.35.0                             go-module  GHSA-hcg3-q754-cr77  High      16.01   < 0.1  
+stdlib                       go1.19.13                           *1.20.8, 1.21.1                    go-module  CVE-2023-39318       Medium    20.37   < 0.1  
+stdlib                       go1.19.13                           *1.20.8, 1.21.1                    go-module  CVE-2023-39319       Medium    20.37   < 0.1  
+github.com/dgrijalva/jwt-go  v3.2.0+incompatible                                                    go-module  GHSA-w73w-5m7g-f7qc  High      13.64   < 0.1  
+stdlib                       go1.19.13                           *1.22.7, 1.23.1                    go-module  CVE-2024-34155       Medium    22.20   < 0.1  
+golang.org/x/text            v0.3.6                              0.3.7                              go-module  GHSA-ppp9-7jff-5vj2  High      12.01   < 0.1  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.0.0-20210520170846-37e1c6afe023  go-module  GHSA-83g2-8m93-v3w7  High       9.15   < 0.1  
+golang.org/x/text            v0.3.6                              0.3.8                              go-module  GHSA-69ch-w2m2-3vjp  High       8.91   < 0.1  
+stdlib                       go1.19.13                           *1.20.12, 1.21.5                   go-module  CVE-2023-39326       Medium    15.24   < 0.1  
+libcrypto3                   3.0.7-r0                            3.0.8-r4                           apk        CVE-2023-1255        Medium    14.12   < 0.1  
+libssl3                      3.0.7-r0                            3.0.8-r4                           apk        CVE-2023-1255        Medium    14.12   < 0.1  
+busybox                      1.35.0-r29                          1.35.0-r31                         apk        CVE-2023-42364       Medium     7.75   < 0.1  
+busybox                      1.35.0-r29                          1.35.0-r31                         apk        CVE-2023-42365       Medium     7.75   < 0.1  
+busybox-binsh                1.35.0-r29                          1.35.0-r31                         apk        CVE-2023-42364       Medium     7.75   < 0.1  
+busybox-binsh                1.35.0-r29                          1.35.0-r31                         apk        CVE-2023-42365       Medium     7.75   < 0.1  
+ssl_client                   1.35.0-r29                          1.35.0-r31                         apk        CVE-2023-42364       Medium     7.75   < 0.1  
+ssl_client                   1.35.0-r29                          1.35.0-r31                         apk        CVE-2023-42365       Medium     7.75   < 0.1  
+stdlib                       go1.19.13                           *1.23.8, 1.24.2                    go-module  CVE-2025-22871       Critical   3.13   < 0.1  
+stdlib                       go1.19.13                           *1.22.11, 1.23.5, 1.24.0-rc.2      go-module  CVE-2024-45336       Medium     5.96   < 0.1  
+busybox                      1.35.0-r29                          1.35.0-r30                         apk        CVE-2023-42366       Medium     5.90   < 0.1  
+busybox-binsh                1.35.0-r29                          1.35.0-r30                         apk        CVE-2023-42366       Medium     5.90   < 0.1  
+ssl_client                   1.35.0-r29                          1.35.0-r30                         apk        CVE-2023-42366       Medium     5.90   < 0.1  
+busybox                      1.35.0-r29                          1.35.0-r31                         apk        CVE-2023-42363       Medium     5.54   < 0.1  
+busybox-binsh                1.35.0-r29                          1.35.0-r31                         apk        CVE-2023-42363       Medium     5.54   < 0.1  
+ssl_client                   1.35.0-r29                          1.35.0-r31                         apk        CVE-2023-42363       Medium     5.54   < 0.1  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.38.0                             go-module  GHSA-vvgc-356p-c3xw  Medium     5.03   < 0.1  
+libcrypto3                   3.0.7-r0                                                               apk        CVE-2024-13176       Medium     4.97   < 0.1  
+libssl3                      3.0.7-r0                                                               apk        CVE-2024-13176       Medium     4.97   < 0.1  
+stdlib                       go1.19.13                           *1.22.11, 1.23.5, 1.24.0-rc.2      go-module  CVE-2024-45341       Medium     3.10   < 0.1  
+golang.org/x/crypto          v0.0.0-20210711020723-a769d52b0f97  0.0.0-20211202192323-5770296d904e  go-module  GHSA-gwc9-m7rh-j2ww  High       1.06   < 0.1  
+musl                         1.2.3-r4                            1.2.3-r6                           apk        CVE-2025-26519       High       0.74   < 0.1  
+musl-utils                   1.2.3-r4                            1.2.3-r6                           apk        CVE-2025-26519       High       0.74   < 0.1  
+stdlib                       go1.19.13                           *1.21.11, 1.22.4                   go-module  CVE-2024-24789       Medium     1.11   < 0.1  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.36.0                             go-module  GHSA-qxp5-gwg8-xv66  Medium     1.17   < 0.1  
+golang.org/x/net             v0.0.0-20210226172049-e18ecbb05110  0.0.0-20210428140749-89ef3d95e781  go-module  GHSA-h86h-8ppg-mxmh  Medium     0.72   < 0.1  
+busybox                      1.35.0-r29                                                             apk        CVE-2025-46394       Low        2.25   < 0.1  
+busybox-binsh                1.35.0-r29                                                             apk        CVE-2025-46394       Low        2.25   < 0.1  
+ssl_client                   1.35.0-r29                                                             apk        CVE-2025-46394       Low        2.25   < 0.1  
+busybox                      1.35.0-r29                                                             apk        CVE-2024-58251       Low        3.10   < 0.1  
+busybox-binsh                1.35.0-r29                                                             apk        CVE-2024-58251       Low        3.10   < 0.1  
+ssl_client                   1.35.0-r29                                                             apk        CVE-2024-58251       Low        3.10   < 0.1  
+stdlib                       go1.19.13                           *1.22.12, 1.23.6, 1.24.0-rc.3      go-module  CVE-2025-22866       Medium     0.56   < 0.1
