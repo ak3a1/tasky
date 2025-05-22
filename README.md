@@ -27,9 +27,7 @@ Golang version and alpine version updated to remove some CVE's from the generate
 
 [Link to Grype scan results when using the new updated image](https://github.com/ak3a1/tasky/blob/main/grype_scans/5_21_2025/new_image_golang_1.24_alpine_3.21.3.txt)
 
-Fixed the signup form to show errors on the form itself (similarly to what the login page already does)
-
-[Link to commit](https://github.com/ak3a1/tasky/commit/17c7ec24c460390ee267bdb1c557ce747c4da4d9)
+Fixed the signup form to show errors on the form itself (similarly to what the login page already does) [Link to the commit](https://github.com/ak3a1/tasky/commit/17c7ec24c460390ee267bdb1c557ce747c4da4d9)
 
 # License
 
